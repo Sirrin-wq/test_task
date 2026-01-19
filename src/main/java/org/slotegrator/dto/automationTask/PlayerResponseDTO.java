@@ -11,8 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PlayerResponseDTO {
-    @JsonProperty("_id")
-    private String id;
+    private Integer id;
     private String username;
     private String email;
     private String name;
